@@ -1,3 +1,28 @@
+# =======================================================================
+# ⚠️ WARNING: USE AT YOUR OWN RISK
+# -----------------------------------------------------------------------
+# This script is intended for **advanced users** who understand Windows
+# internals and PowerShell scripting.
+#
+# It performs security hardening by modifying system settings, registry
+# keys, and disabling potentially risky features.
+#
+# ❗ Potential Risks:
+# - Disabling essential Windows services may break functionality.
+# - Registry changes can cause instability or boot issues if misapplied.
+# - Some features (Defender, Firewall, Updates, OneDrive, Widgets) will
+#   be modified or disabled permanently unless reverted.
+#
+# ✅ Strongly Recommended:
+# - Run on a **test system or virtual machine** first.
+# - Always **create a System Restore Point** before execution.
+# - Review each section to understand its impact before running.
+# - Run as **Administrator**.
+#
+# By using this script, you accept full responsibility for any outcomes.
+# =======================================================================
+
+
 # Run this script as Administrator
 
 # 1. Set Basic Account Policies
