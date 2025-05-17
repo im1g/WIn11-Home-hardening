@@ -1,0 +1,9 @@
+# try those commands if u faced isses related to cortana or bing web search.
+
+# run powershell as an adminstrator 
+New-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Search" `
+    -Name "BingSearchEnabled" -Value 0 -PropertyType DWORD -Force
+
+# Disable Cortana search integration (also blocks Bing)
+New-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Search" `
+    -Name "CortanaConsent" -Value 0 -PropertyType DWORD -Force
